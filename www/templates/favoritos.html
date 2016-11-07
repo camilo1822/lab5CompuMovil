@@ -1,0 +1,26 @@
+<ion-view view-title="Agregar Lugar" >
+
+
+<ion-content ng-controller="NuevoLugarCtrl">
+<div>
+    <div class="list list-inset">
+  		<label class="item item-input">
+        	<input type="text"ng-model="tituloLugar" placeholder="Titulo">
+      	</label>
+      	<label class="item item-input">
+        	<input type="text"ng-model="imgLugar" placeholder="Inserte url de la imagen">
+      	</label>
+      	<label class="item item-input">
+        	<input type="text"ng-model="descripLugar" placeholder="Inserte Descripcion">
+      	</label>
+      	<label class="item item-input">
+        	<input type="text"ng-model="dirLugar" placeholder="Inserte Direccion">
+      	</label>
+    </div>
+    <div class="button-bar">
+        <button class="button icon-left button-dark ion-happy-outline" ng-click="guardar();">
+                Agregar Lugar
+        </button>
+    </div>
+  </ion-content>
+</ion-view>
